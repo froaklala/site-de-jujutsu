@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -6,11 +8,16 @@
 
 body{
     background-color: black;
+    font-family: 'Roboto Mono', monospace;
 }
 
 a{
     color: white;
     text-decoration: nonex;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
 }
 
 header{
@@ -18,12 +25,26 @@ header{
     background-color: red;
     display: flex;
     justify-content: space-between;
+    background-image: linear-gradient(rgb(124, 0, 0), rgb(209, 99, 99), rgb(71, 0, 0));
 }
 
 header img{
     width: 100px;
 }
 
+nav{
+    margin-left: 20px;
+}
+
+nav a{
+    margin-right: 50px;
+}
+
 #logo-nav-conterner{
     display: flex;
+}
+
+#links-container{
+    display: flex;
+    align-items: center;
 }
