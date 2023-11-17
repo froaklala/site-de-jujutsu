@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 *{
     margin: 0;
@@ -8,20 +10,21 @@
 
 body{
     background-color: black;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Playpen Sans', cursive;
 }
 
 a{
+    font-size: 19px;
     color: white;
-    text-decoration: nonex;
     text-decoration: none;
 }
+
 a:hover{
-    color: black;
+    color: rgb(218, 218, 218);
 }
 
 header{
-    padding: 15px 15px;
+    padding: 10px 15px;
     background-color: red;
     display: flex;
     justify-content: space-between;
@@ -40,11 +43,35 @@ nav a{
     margin-right: 50px;
 }
 
+#carrusel-container{
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
 #logo-nav-conterner{
     display: flex;
+    align-items: center;
 }
 
 #links-container{
     display: flex;
     align-items: center;
+}
+
+#links-container a{
+    margin-left: 15px;
+}
+
+.imege-container{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: none;
+}
+
+.imege-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
