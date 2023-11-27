@@ -11,5 +11,5 @@ function esconderImagens(){
 let indice=0
 window.onload=()=>{
     esconderImagens()
-    mostrarImagem()
+    mostrarImagem(1)
 }
