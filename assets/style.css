@@ -56,6 +56,7 @@ nav a{
     width: 100%;
     height: 400px;
     position: relative;
+    border-bottom: 3px solid white;
 }
 
 #logo-nav-conterner{
@@ -81,11 +82,51 @@ nav a{
     width: 100%;
     height: 100%;
     position: absolute;
-    display: none;
 }
 
 .imege-container img{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    display: none;
+}
+
+.card{
+    width: 100%;
+    height: 380px;
+    border-bottom: 3px solid white;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.imeige-box{
+    width: 50%;
+    height: 100%;
+}
+
+.imeige-box img{
+    width: 100%;
+    height: 100%;
+}
+
+.info{
+    color: white;
+    width: 50%;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.info p{
+    width: 80%;
+    margin-top: 15px;
 }
